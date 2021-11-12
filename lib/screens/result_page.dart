@@ -45,7 +45,7 @@ class _ResultPageState extends State<ResultPage> {
                 height: 30,
               ),
               Text(
-                '${_qnController.correctAns*10}/${_qnController.questions.length*10}',
+                '${_qnController.numOfCorrectAns*10}/${_qnController.questions.length*10}',
                 style: TextStyle(
                   color: Colors.white,
                   fontSize: 35,
